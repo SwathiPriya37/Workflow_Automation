@@ -1,0 +1,15 @@
+"""Prompts package initialization."""
+
+from .templates import (
+    CODE_ANALYSIS_PROMPT,
+    DAILY_REPORT_PROMPT,
+    PRODUCTIVITY_INSIGHTS_PROMPT,
+    SECURITY_ANALYSIS_PROMPT
+)
+
+__all__ = [
+    "CODE_ANALYSIS_PROMPT",
+    "DAILY_REPORT_PROMPT", 
+    "PRODUCTIVITY_INSIGHTS_PROMPT",
+    "SECURITY_ANALYSIS_PROMPT"
+]
