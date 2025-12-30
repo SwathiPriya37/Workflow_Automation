@@ -83,7 +83,7 @@ const analysisSchema = new mongoose.Schema({
   improvements: [{
     category: {
       type: String,
-      enum: ['performance', 'security', 'readability', 'maintainability', 'testing', 'documentation', 'other']
+      enum: ['performance', 'security', 'readability', 'maintainability', 'testing', 'documentation', 'accessibility', 'best-practices', 'error-handling', 'other']
     },
     suggestion: { type: String },
     priority: {
