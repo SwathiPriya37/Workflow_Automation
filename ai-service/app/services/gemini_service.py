@@ -45,12 +45,12 @@ SAFETY_SETTINGS = [
 
 
 class GeminiService:
-    """Service for interacting with Gemini 2.0 Flash model."""
+    """Service for interacting with Gemini 2.5 Flash model."""
     
     def __init__(self):
         """Initialize the Gemini model."""
         self.model = genai.GenerativeModel(
-            model_name="gemini-2.0-flash",
+            model_name="gemini-2.5-flash",
             generation_config=GENERATION_CONFIG,
             safety_settings=SAFETY_SETTINGS
         )
